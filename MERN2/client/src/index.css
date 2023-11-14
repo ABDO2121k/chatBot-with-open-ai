@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;800&family=Work+Sans&display=swap');
+
+
+
+html,body{
+  margin: 0;
+  background-color: #05101c;
+  color: white;
+  font-family: 'Roboto Slab', serif; 
+}
+
+.image-reverse{
+  filter: invert(100%);
+}
+
+.nav-link{
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation{
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg)
+  }
+}
